@@ -17,6 +17,7 @@ How to deploy sample application to Bluemix?
 * Using below cf command to deploy sample application to Bluemix
 
 Login: cf login -a https://api.ng.bluemix.net -u xxx@xxx.xxx -p xxxxx
+
 Deploy: cf push sqldb-bluemix-app -p xxx\sqldb-bluemix-app.war 
 
 After ran above two comands, congratulations, you have deployed this application to Bluemix, next I will show you how to use SQL Database service in your application.
